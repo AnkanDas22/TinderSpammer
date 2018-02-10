@@ -12,7 +12,10 @@ i=0
 while i<x:
     if a==1:
         pyautogui.press('right')
-    else:
+    elif a==2:
         pyautogui.press('left')
+    else:
+        print('Even Gaben can type till 2')
     i=i+1
     time.sleep(1)
+    print('Person',i,'right' if a==1 else 'left','swiped')
