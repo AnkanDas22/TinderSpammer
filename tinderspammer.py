@@ -15,7 +15,7 @@ while i<x:
     elif a==2:
         pyautogui.press('left')
     else:
-        print('Even Gaben can type till 2')
+        print('Remember there are 2 options?\n')
         break
     i=i+1
     time.sleep(1)
